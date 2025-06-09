@@ -1,0 +1,49 @@
+body { 
+    background-color: #c2fcf7; /* Cor de Fundo da Página */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte de padrão */
+    margin: 20px; /* Margem da página */
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo de titulo */
+    text-align: center; /* Titulo centralizado */
+    color: #2e86de; /* Cor do titulo */
+}
+p {
+    font-size: 18px; /* Tamanho da fonte */
+    text-align: justify; /* Texto justificado */
+    margin-bottom: 15px; /* Espaçamento depois do parágrafo */
+    line-height: 1.5; /* Espaçamento entre as linhas do parágrafo */
+}
+ul {
+    line-height: 1.8; /* Espaçamento entre as linhas da lista */
+    padding-left: 20px; /* Alinhamento da lista */
+}
+li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista*/
+}
+img {
+    border-radius: 10px; /* Aredonda as bordas da imgagem */
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Mantem a proporção */
+    display: block; /* Centraliza imagem */
+    margin: 20px auto; /* Margem superiror/inferior e centralização */
+}
+table {
+    width: 80%; /* Largura da Tabela */
+    margin: 20px auto; /* Centalização da tabela */
+    border-collapse: collapse; /* Remove os espaços entre as células */
+    background-color: azure; /* Muda a cor do fundo da tabela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Cria uma sombra na tabela */
+    border-radius: 30px; /* Aredonda as bordas da tabela */
+    overflow: hidden; /* Garante que as bordas arredondadas sejam respeitadas */
+}
+th, td {
+    padding: 12px 15px; /* Espaçamento interno das celulas */
+    text-align: center; /* Alinhamento do texto */
+    border-bottom: 1px solid #e0e0e0; /* Deixa a linha divisoria mais sutil */
+    font-weight: bold; /* Deixa a fonte em Negrito */
+}
+a:hover { /* Muda a cor do link quando passar o mouse por cima*/
+    color: red;
+} 
