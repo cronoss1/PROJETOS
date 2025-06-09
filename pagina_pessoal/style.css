@@ -44,6 +44,26 @@ th, td {
     border-bottom: 1px solid #e0e0e0; /* Deixa a linha divisoria mais sutil */
     font-weight: bold; /* Deixa a fonte em Negrito */
 }
-a:hover { /* Muda a cor do link quando passar o mouse por cima*/
+a:hover { /* Muda a cor do link quando passar o mouse por cima */
     color: red;
 } 
+#meubotao { 
+    background-color: #2e86de; /* Muda a cor de fundo do botão */
+    color: white; /* Muda o cardo texto */
+    border: none; /* Deixa o botão sem bordas */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 10px; /* A redonda as bordas */
+    padding: 5px 10px; /* Tamanho do botão */
+    margin: 20px auto; /* Margem do botão */
+    cursor: pointer;
+}
+#meubotao:hover {
+    background-color: green; /* Muda a cor do botão quando passar o mouse por cima */
+}
+#mensagem {
+    padding: auto; 
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
