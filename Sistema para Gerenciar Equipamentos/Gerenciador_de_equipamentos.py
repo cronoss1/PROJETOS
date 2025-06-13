@@ -1,4 +1,4 @@
-# Versão com interface gráfica e histórico de equipamentos
+# Versão com interface gráfica e histórico de equipamentos.
 
 import sqlite3
 from datetime import datetime
